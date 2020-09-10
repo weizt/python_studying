@@ -1,2 +1,2 @@
 # python_studying
-学习python的笔记
+## 学习python的笔记
