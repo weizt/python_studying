@@ -9,8 +9,10 @@ def add_person():
     person['height'] = input('请输入您的身高： ')
     persons.append(person)
     print(person)
+    print()
     return person
-add_person()
+# add_person()
+
 
 x = 0
 while x < 100000:
@@ -31,3 +33,4 @@ while x < 100000:
         add_person()
     elif num != 1 or num != 2 or num != 3 or num != 4 or num != 5 or num != 6:
         print('请输入正确的数字，谢谢！')
+print()
