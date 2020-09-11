@@ -30,6 +30,10 @@ def del_person():
 # 修改名片
 # 查询名片
 # 显示所有名片
+
+
+
+
 while True:
     print('   名片管理系统V1.0    ')
     print('1.添加名片')
@@ -50,3 +54,5 @@ while True:
     elif num not in (1, 2, 3, 4, 5, 6):
         print('请输入正确的数字，谢谢！')
 print()
+
+# 测试
