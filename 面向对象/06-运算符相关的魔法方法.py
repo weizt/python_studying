@@ -1,3 +1,5 @@
+# __eq__方法，运算符方法
+
 class Person(object):
     def __init__(self, name, age):
         self.name = name
@@ -6,6 +8,8 @@ class Person(object):
     # 如果重写了__eq__方法,并且返回两个对象的值是全等的,那么 == 相比较将变成True
     def __eq__(self, other):
         print('__eq__方法被调用了,other=', other)
+
+
 #       return self.name == other.name and self.age == other.age
 
 
