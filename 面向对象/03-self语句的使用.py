@@ -22,7 +22,7 @@ print('0x%X' % id(s1))
 s2 = Student('lisi', 19)
 s2.say_hello()
 
-# 如果执行这个实例对象没有的属性，会报错
+# 如果执行这个实例对象没有的属性，会报错,AttributeError表示属性错误
 # print(s1.height)  ==>AttributeError: 'Student' object has no attribute 'height'
 
 

@@ -11,6 +11,11 @@
 
 '''
 
+# self.var_name = var_name
+# self.var_name 是内存里加的属性
+# var_name 是对象传入的参数的值
+
+# 什么是对象：对象就是内存里的一块空间
 
 class Student(object):  # 关注这个类有哪些特征和方法
     # 在__init__方法里，以参数的形式定义特征，我们称之为属性
