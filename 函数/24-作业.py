@@ -24,12 +24,12 @@ def del_person():
     while True:
         del_name = input('请输入您想删除的人员姓名：')
         # flag = True  # 假设结果是真，那么下列的代码将不执行任何操作
-        flag = False  # 定义变量flag = False,表示假设结果是假，下面的代码是起作用的，如果是flag=True，表示结果是真，代码是没有起任何作用的
+        flag = False  # 定义变量flag = False,表示假设结果输入的名称与找果的名称不符
         for line in person_list:
-            if del_name == line['姓名']:
-                flag = True
+            if del_name == line['姓名']:  # 判断条件证明flag=false是错误的
+                flag = True  # flag变为True
                 person_list.remove(line)
-        if flag:
+        if flag:  # if flag即如果flag为True，if =! True的意思，所以人员删除成功了
             # print('对不起，您要删除的对象不存在')
             print('恭喜您，已删除')
             print(person_list)
@@ -42,7 +42,7 @@ def del_person():
 # 修改名片
 def change_person():
     while True:
-        old_name = input('请输入您想修改人员的姓名：')
+        old_name = input('请输入您想修改人员的姓名(退出请输入exit)：')
         flag = True
         for line in person_list:
             if line['姓名'] == old_name:
@@ -58,10 +58,11 @@ def change_person():
                 break
         if flag:
             print('您想修改的人员信息不存在')
-            break
         else:
             print('人员信息修改已成功')
         print(person_list)
+        if old_name == 'exit':
+            break
 
 
 # 查询名片
