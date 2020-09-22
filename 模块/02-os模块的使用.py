@@ -2,7 +2,7 @@
 # OS模块里提供的方法就是用来调用操作系统的方法
 import os
 
-# os.name ==> 获取操作系统的名字 windows系列：nt /非windows系统：posix
+# os.name ==> 获取操作系统的名字 windows系列：nt / 非windows系统：posix
 print(os.name)
 
 # 系统路径的分隔符
