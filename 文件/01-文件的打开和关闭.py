@@ -9,7 +9,7 @@ open()函数会有一个返回值，打开文件的对象
 
 
 # UnicodeDecodeError 编码报错；解决方案：用相同的编码格式写入和读取
-# python里打开文件路径用/
+# python里打开文件路径用/，而\表示转义
 file = open('D:/桌面备份文件/207操作手册.txt', encoding='gbk')
 
 print(file.read())

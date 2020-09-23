@@ -6,7 +6,7 @@ print()
 
 
 # 缺省参数必须写在后面
-def say_hellop(name, age, city='东夏'):  # 形参city设置为一个缺少值
+def say_hellop(name, age, city='东夏'):  # 形参city设置为一个缺省值
     print('大家好，我是{}，我今年{}，我来自{}'.format(name, age, city))
 
 

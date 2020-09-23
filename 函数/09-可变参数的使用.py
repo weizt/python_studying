@@ -1,7 +1,7 @@
 # 定义可变参数,*args表是可变位置参数
 # 多出来的可变参数，会以元组的形式保存到args中
 
-# a,b表示必须最后有两个参数
+# a,b表示必须最少有两个参数
 def add(a, b, *args):
     c = a + b
     for arg in args:
@@ -17,7 +17,7 @@ def add_1(a, b, *args, mul=1):
     return c * mul
 
 
-# args可变参数表示到0-无数个数据
+# args可变参数表示到0-无数个参数
 def add_2(*args):
     c = 0
     for arg in args:
