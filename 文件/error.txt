@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:/Users/weixiaozt/Desktop/pythonProject_git/文件/08-标准输入&标准输出&错误输出.py", line 29, in <module>
+    print(1 / 0)
+ZeroDivisionError: division by zero

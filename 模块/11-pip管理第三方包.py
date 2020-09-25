@@ -1,3 +1,4 @@
+'''
 # 使用pip安装包
 pip install <package_name>
 
@@ -17,6 +18,8 @@ pip install -r file_name
 
 # 从指定路径下载第三方包（临时修改）
 pip install <package> -i <url>
+'''
+
 
 # 永久修改国内下载源
 # 注：windows下，直接在user目录中创建一个pip目录，如：C:\Users\xx\pip，新建文件pip.ini。
