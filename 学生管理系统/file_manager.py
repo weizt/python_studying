@@ -19,7 +19,7 @@ def write_json(file_name, date):
         json.dump(date, file)
 
 
-def read_json(file_name,default_date):
+def read_json(file_name, default_date):
     try:
         with open(base_dir + file_name, 'r', encoding='utf8') as file:
             import json
