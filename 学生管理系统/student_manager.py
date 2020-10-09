@@ -37,15 +37,16 @@ def add_student():
         # print(data)
         # 将data保存到一个json文件，调用file_manager模块中的write_json方法
         file_manager.write_json(name + '.json', data)
-
-        choice = input('添加成功！\n1.继续\n2.返回\n请选择(1~2):')
-        if choice == '1':
-            continue
-        elif choice == '2':
-            break
-        else:
-            print('输入错误，请重新选择！')
-            break
+        print('添加成功！')
+        while True:
+            choice = input('1.继续\n2.返回\n请选择(1~2):')
+            if choice == '1':
+                break
+            elif choice == '2':
+                return
+            else:
+                print('输入错误，请重新选择！')
+                continue
 
 
 def show_student():
