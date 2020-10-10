@@ -1,1 +1,40 @@
-{"all_students": [{"s_id": "stu0001", "name": "111", "age": "1111", "sex": "1111", "tel": "1111"}, {"s_id": "stu0002", "name": "jack", "age": "19", "sex": "\u7537", "tel": "110"}, {"s_id": "stu0003", "name": "safdsafadsfa", "age": "dasfdasfads", "sex": "sdafsdafdsa", "tel": "sadfsdaf"}, {"s_id": "stu0004", "name": "sdafdsaf", "age": "asdfsadfsda", "sex": "sdafsdafasd", "tel": "dsafsdafasd"}, {"s_id": "stu0005", "name": "11", "age": "sdafdsa", "sex": "dsafdsa", "tel": "dsafdsa"}, {"s_id": "stu0006", "name": "sadfdsafa", "age": "dsafdsa", "sex": "sadfsdaf", "tel": "sadfdsafsad"}, {"s_id": "stu0007", "name": "sdafdsafsdafdsa", "age": "dsafsdafsadfsad", "sex": "dsafdsafadsfsad", "tel": "dsafsadfadsf"}, {"s_id": "stu0008", "name": "jack", "age": "19", "sex": "\u5973", "tel": "12342"}, {"s_id": "stu0009", "name": "marry", "age": "10", "sex": "\u5973", "tel": "11000"}, {"s_id": "stu0010", "name": "marry", "age": "19", "sex": "\u7537", "tel": "8909809"}, {"s_id": "stu0011", "name": "wzt", "age": "16", "sex": "ll ", "tel": "19990"}, {"s_id": "stu0012", "name": "lksajdf", "age": "sdalfjdslk", "sex": "dsafjdsl", "tel": "sdafjdls"}, {"s_id": "stu0013", "name": "hello", "age": "17", "sex": "male", "tel": "1098089"}, {"s_id": "stu0014", "name": "raoyue", "age": "19", "sex": "woman", "tel": "098098"}], "num": 14}
+{
+  "all_students": [
+    {
+      "s_id": "stu0002",
+      "name": "wzt",
+      "age": "18",
+      "sex": "man",
+      "tel": "119"
+    },
+    {
+      "s_id": "stu0003",
+      "name": "jack",
+      "age": "20",
+      "sex": "male",
+      "tel": "120"
+    },
+    {
+      "s_id": "stu0004",
+      "name": "wzt1",
+      "age": "90",
+      "sex": "man",
+      "tel": "9999"
+    },
+    {
+      "s_id": "stu0005",
+      "name": "jack",
+      "age": "88",
+      "sex": "woman",
+      "tel": "333"
+    },
+    {
+      "s_id": "stu0006",
+      "name": "hello",
+      "age": "11",
+      "sex": "lv",
+      "tel": "888"
+    }
+  ],
+  "num": 5
+}
