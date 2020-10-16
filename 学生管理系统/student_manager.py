@@ -1,9 +1,9 @@
 import file_manager
 import model
 
-
 name = ''
 count = 0
+
 
 # students_list = [] 添加学生生时，要先读取这个json文件，所以不能这样写，否则每次运行都会覆盖这个数据，之前的数据就没有了
 
@@ -127,7 +127,16 @@ def show_student():
 
 
 def modify_student():
-    pass
+    operator = input('1.查看所有学生\n2.根据姓名查找\n3.根据学号查找\n4.返回\n请选择(1~4):')
+    stu_json_file = file_manager.read_json(name + '.json', {})
+    if operator == '1':
+        pass
+    elif operator == '2':
+        pass
+    elif operator == '3':
+        pass
+    else:
+        pass
 
 
 def delete_student():
@@ -173,7 +182,6 @@ def delete_student():
 
 
 def show_manager(file_name):
-
     # 调用file_manager模块里的read_file方法
     content = file_manager.read_file(file_name) % name
     while True:
