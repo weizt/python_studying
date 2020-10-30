@@ -7,12 +7,12 @@ import re
 3.长度在6到16位范围内
 '''
 
-username = input('请输入用户名：')
-m = re.fullmatch(r'[a-zA-Z_][a-zA-Z0-9_\w]{5,15}', username)
-if m is None:
-    print('用户名不存在')
-else:
-    print(m)
+# username = input('请输入用户名：')
+# m = re.fullmatch(r'[a-zA-Z_][a-zA-Z0-9_\w]{5,15}', username)
+# if m is None:
+#     print('用户名不存在')
+# else:
+#     print(m)
 
 '''
 作业2：密码匹配
@@ -20,12 +20,12 @@ else:
 2.必须以字母开头
 3.长度在6到13位范围内
 '''
-password = input('请输入密码：')
-m1 = re.fullmatch(r'[a-zA-Z][^!@%^&*()]{5,12}', password)
-if m1 is None:
-    print('密码不存在')
-else:
-    print(m1)
+# password = input('请输入密码：')
+# m1 = re.fullmatch(r'[a-zA-Z][^!@%^&*()]{5,12}', password)
+# if m1 is None:
+#     print('密码不存在')
+# else:
+#     print(m1)
 
 '''
 作业3：查找文件中符合要求的字符
@@ -59,3 +59,7 @@ print(list)
 作业4：检测IP地址
 1.范围0.0.0.0~255.255.255.255
 '''
+IP = input('请输入一个数字：')
+# \d：表示一位数    [1-9]\d：表示两位数   1[0-9]{2}：表示三位数      2[0-4]\d：表示200-249     25[0-5])：表示250-255
+x = re.fullmatch(r'((\d|[1-9]\d|1[0-9]{2}|2[0-4]\d|25[0-5])\.){3}(\d|[1-9]\d|1[0-9]{2}|2[0-4]\d|25[0-5])', IP)
+print(x)

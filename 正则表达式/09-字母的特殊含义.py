@@ -7,7 +7,7 @@ import re
 # \s:表示空白字符
 # \S:表示非空白字符
 
-# \d:表示数字，造价于[0-9]
+# \d:表示数字，等价于[0-9]
 m1 = re.search(r'x\dp', 'x8p')  # 只能匹配一个数字
 m1_1 = re.search(r'x\d+p', 'x88989p')  # 匹配出现一次或多次的数字用 +
 print(m1)  # ==> <re.Match object; span=(0, 3), match='x8p'>
